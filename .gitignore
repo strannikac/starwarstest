@@ -1,0 +1,4 @@
+.DS_Store
+StarWars.xcodeproj/project.xcworkspace/**
+StarWars.xcodeproj/xcuserdata/**
+StarWars.xcodeproj/xcshareddata/**
