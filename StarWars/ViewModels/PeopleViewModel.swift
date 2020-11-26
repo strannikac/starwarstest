@@ -21,7 +21,7 @@ class PeopleViewModel {
     
     private var pages = 1
     private var perPage = 10
-    private var currPage = 0
+    private var currentPage = 0
     private var isLoading = false
 
   init() {
@@ -52,14 +52,14 @@ class PeopleViewModel {
   }
     
     private func getPersons() {
-        currPage += 1
+        currentPage += 1
         
-        if !isLoading && currPage <= pages {
+        if !isLoading && currentPage <= pages {
             isLoading = true
             
-            PeopleService.shared.people(at: currPage) { object, error in
+            PeopleService.shared.people(at: currentPage) { object, error in
                 if let object = object {
-                    if self.currPage == 1 {
+                    if self.currentPage == 1 {
                         self.people = object
                         self.personViewModel = PersonViewModel()
                         self.pages = Int(ceil(Double(self.people.count) / Double(self.perPage)))
@@ -68,14 +68,16 @@ class PeopleViewModel {
                     }
                     
                     self.rows = self.people.results.count
-                    self.isLoading = false
                     
                     DispatchQueue.main.sync {
                         self.tableView!.reloadData()
                     }
                 } else {
                     //error
+                    self.currentPage -= 1
                 }
+                
+                self.isLoading = false
             }
         }
     }

@@ -30,7 +30,7 @@ class PersonViewModel: SingleViewModel {
       .init(position: .middle, title: "Name", property: person.name),
       .init(position: .middle, title: "Skin Color", property: person.skinColor),
       .init(position: .middle, title: "Eye Color", property: person.eyeColor),
-      .init(position: .bottom, title: "Gender", property: person.gender.rawValue)
+      .init(position: .bottom, title: "Gender", property: person.gender)
     ])
     sections.append(general)
     

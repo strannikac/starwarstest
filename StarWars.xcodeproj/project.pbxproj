@@ -10,7 +10,6 @@
 		406453AA25610E3F00106582 /* VehicleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406453A925610E3F00106582 /* VehicleViewModel.swift */; };
 		406453AF256113CC00106582 /* PlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406453AE256113CC00106582 /* PlanetViewModel.swift */; };
 		406453B4256115B900106582 /* PlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406453B3256115B900106582 /* PlanetViewController.swift */; };
-		4064547C256CC23A00106582 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064547B256CC23A00106582 /* Gender.swift */; };
 		40645484256CC9E100106582 /* LineItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40645483256CC9E100106582 /* LineItemCell.swift */; };
 		40645495256D6D4A00106582 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40645494256D6D4900106582 /* PeopleViewController.swift */; };
 		4064549D256D722300106582 /* SingleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064549C256D722300106582 /* SingleViewModel.swift */; };
@@ -65,7 +64,6 @@
 		406453A925610E3F00106582 /* VehicleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleViewModel.swift; sourceTree = "<group>"; };
 		406453AE256113CC00106582 /* PlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewModel.swift; sourceTree = "<group>"; };
 		406453B3256115B900106582 /* PlanetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewController.swift; sourceTree = "<group>"; };
-		4064547B256CC23A00106582 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 		40645483256CC9E100106582 /* LineItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineItemCell.swift; sourceTree = "<group>"; };
 		40645494256D6D4900106582 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		4064549C256D722300106582 /* SingleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewModel.swift; sourceTree = "<group>"; };
@@ -195,7 +193,6 @@
 				BAA04346255ADDB100DBA65B /* Person.swift */,
 				409C31C5255FDB990086FDCA /* Vehicle.swift */,
 				409C31CA255FE1480086FDCA /* Planet.swift */,
-				4064547B256CC23A00106582 /* Gender.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -402,7 +399,6 @@
 				BAA0436F255B08FE00DBA65B /* PersonViewModel.swift in Sources */,
 				BAA0438D255B0D1A00DBA65B /* UILabel.swift in Sources */,
 				406453AA25610E3F00106582 /* VehicleViewModel.swift in Sources */,
-				4064547C256CC23A00106582 /* Gender.swift in Sources */,
 				BAA0436A255B08F500DBA65B /* PeopleViewModel.swift in Sources */,
 				40645495256D6D4A00106582 /* PeopleViewController.swift in Sources */,
 				409C31CB255FE1480086FDCA /* Planet.swift in Sources */,
